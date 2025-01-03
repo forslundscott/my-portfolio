@@ -5,6 +5,9 @@ import About from "./About"
 import FloatingNav from "./FloatingNav";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import WorkHistory from "./WorkHistory";
+import Skills from "./Skills";
+import Community from "./Community";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/workhistory" element={<WorkHistory />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/community" element={<Community />} />
       </Routes>
     </Router>
   );
