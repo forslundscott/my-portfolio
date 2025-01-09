@@ -51,7 +51,7 @@ code {
   height: calc(var(--vh) * 100); 
   align-items: center;
   justify-content: center;
-  scroll-snap-align: center; 
+  scroll-snap-align: end; 
 }
 
 .sticky-header {
@@ -79,7 +79,7 @@ code {
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  display: flex !important;
   box-shadow: 4px 5px 4px 3px #ccff004d !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
@@ -94,15 +94,25 @@ code {
 
 .project-card {
   padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-bottom: 25px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
 }
-
+.about-card {
+  /* padding-top: 10px !important; */
+  padding-bottom: 20px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
 .project-card-view {
   border: 1.7px solid var(--color-accent) !important;
   box-shadow: 4px 5px 4px 3px #ccff004d !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   /* color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;

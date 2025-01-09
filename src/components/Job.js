@@ -22,10 +22,11 @@ function Job(props) {
           alt={props.name} 
           style={{ height: "10vh" }}
         /> */}
+        <br/>
         <Card.Body>
-          <Card.Title>{job.name}</Card.Title>
+          <Card.Title><h2>{job.name}</h2></Card.Title>
         </Card.Body>
-        
+
         {job.tasks.map((task, index) => (
           <p key={index}>{task}</p>
         ))}

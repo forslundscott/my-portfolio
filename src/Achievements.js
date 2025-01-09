@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import Header from "./Header";
 function Achievements() {
   return (
-    <Container>
+    <Container fluid className="project-section">
       <Header title="Achievements"/>
       <Row className="project-card">
       <Card className="project-card-view">
@@ -23,6 +23,7 @@ function Achievements() {
         <p>Developed a league management app for a local soccer organization with EJS and React, transitioning to React Native for broader compatibility.</p>
       </Card>
       </Row>
+      <br/>
     </Container>
   );
 }
