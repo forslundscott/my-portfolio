@@ -1,0 +1,60 @@
+{
+    "RGBSI": {
+        "name": "Rapid Global Business Solutions Inc. Contracted to Pratt & Whitney AutoAir Inc.",
+        "images": [
+            "/images/RGBSI.png",
+            "/images/PWAA.png"
+        ],
+        "title": "Data Automation Programmer",
+        "start": "March 2018",
+        "end": "December 2024",
+        "tasks": [
+            "Create applications, queries, macros and lead projects to automate processes",
+            "Programmed VOIP call line using Twilio APIs",
+            "Server Admin",
+            "Created web-based dashboards to reduce email traffic and increase visibility"
+        ]
+    },
+    "Dart": {
+        "name": "Dart Container",
+        "images": ["/images/Dart.png"],
+        "title": "Treasury Analyst",
+        "start": "September 2017",
+        "end": "March 2018",
+        "tasks": [
+            "Compiled reports related to cash and investment activity",
+            "Completed VBA projects to help functionality and efficiency",
+            "Prepared financial ratios for vendor credit application requests",
+            "Prepared calculations and notices to lenders related to covenant compliance",
+            "Reviewed reports prepared by the cash staff"
+        ]
+    },
+    "Yeo": {
+        "name": "Yeo & Yeo CPAs and Business Consultants",
+        "images": ["/images/Yeo.png"],
+        "title": "Senior Accountant – Audit",
+        "start": "April 2015",
+        "end": "September 2017",
+        "tasks": [
+            "In charge of audits and Single Audits for various industries",
+            "Trained, supervised and reviewed audit interns and other staff", 
+            "In charge of implementing new standards for all applicable audits",
+            "Compiled reports related to cash and investment activity"
+
+        ]
+    },
+    "Block": {
+        "name": "Block Imaging International",
+        "images": ["/images/Block.png"],
+        "title": "Staff Accountant",
+        "start": "November 2013",
+        "end": "April 2015",
+        "tasks": [
+            "Trained and supervised accounting assistants",
+            "Prepared internal reports for management", 
+            "Business process development and automation",
+            "Built automated workbooks to increase business efficiency"
+
+        ]
+    }
+}

@@ -1,12 +1,35 @@
-import React, { useState, useEffect } from "react";
-// import './App.css';
+import React from "react";
+import Card from "react-bootstrap/Card";
+import Jobs from "./Jobs.json";
 
 function Job(props) {
+  const job = Jobs[props.name];
+  if (!job || !Array.isArray(job.tasks)) {
+    return <p>Job data or tasks not found for {props.name}</p>;
+  }
   return (
     <span>
-    
-    <img src={`/images/${props.name}.png`} alt={`${props.name}`} style={{height: '10vh'}}>
-    </img>
+      <Card className="project-card-view">
+        {job.images.map((image, index) => (
+          <Card.Img key={index}
+          src={`${image}`} 
+          alt={props.name} 
+          style={{ height: "10vh" }}
+        />
+        ))}
+        {/* <Card.Img 
+          src={`/images/${props.name}.png`} 
+          alt={props.name} 
+          style={{ height: "10vh" }}
+        /> */}
+        <Card.Body>
+          <Card.Title>{job.name}</Card.Title>
+        </Card.Body>
+        
+        {job.tasks.map((task, index) => (
+          <p key={index}>{task}</p>
+        ))}
+      </Card>
     </span>
   );
 }

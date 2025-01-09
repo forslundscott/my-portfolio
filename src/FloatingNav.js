@@ -11,7 +11,8 @@ import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SkillsIcon from "@mui/icons-material/Code";
 import CommunityIcon from "@mui/icons-material/VolunteerActivism";
-import './index.css';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import SchoolIcon from '@mui/icons-material/School';
 
 const theme = createTheme({
     palette: {
@@ -32,7 +33,7 @@ const FloatingNav = ({ onClick }) => {
   
     return (
         <ThemeProvider theme={theme}>
-      <div style={{ position: "fixed", bottom: "20px", right: "20px" }}>
+      <div className="floatingNav" style={{ position: "fixed", bottom: "20px", right: "20px" }}>
         {/* Main Floating Action Button */}
         <Fab color={open ?"primary":"secondary"} onClick={handleToggle}>
           {open ? <CloseIcon /> : <AddIcon sx={{ color: "#ceff00" }}/>}
@@ -85,6 +86,32 @@ const FloatingNav = ({ onClick }) => {
             //   className="voltButton"
             >
               <SkillsIcon />
+            </Fab>
+            </Tooltip>
+            </Link>
+            <Link to="/achievements">
+            <Tooltip title="Achievements" placement="left">
+            <Fab
+              
+              size="small"
+              style={{ marginBottom: "10px" }}
+              color="primary"
+            //   className="voltButton"
+            >
+              <EmojiEventsIcon />
+            </Fab>
+            </Tooltip>
+            </Link>
+            <Link to="/School">
+            <Tooltip title="School/Certs" placement="left">
+            <Fab
+              
+              size="small"
+              style={{ marginBottom: "10px" }}
+              color="primary"
+            //   className="voltButton"
+            >
+              <SchoolIcon />
             </Fab>
             </Tooltip>
             </Link>

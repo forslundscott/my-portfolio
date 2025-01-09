@@ -1,11 +1,30 @@
 import logo from './logo.svg';
-import './App.css';
+import {Container, Row, Card} from 'react-bootstrap'
+import Header from './Header';
 
 function About() {
   return (
-    <h1>
-      Full Stack Developer
-    </h1>
+    <Container>
+      <Header title="About Me"/>
+      <Row>
+        Freelance Software Developer
+      </Row>
+      <Row>
+        Avid Soccer Player
+      </Row>
+      <Row>
+        Runner
+      </Row>
+      <Row>
+        Coach
+      </Row>
+      <Row>
+        Beekeeper
+      </Row>
+      <Row>
+        Gardener
+      </Row>
+    </Container>
   );
 }
 
