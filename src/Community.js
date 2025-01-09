@@ -9,14 +9,14 @@ function Community() {
       <Header title="Community"/>
       <Row className="project-card">
         <Card className="project-card-view">
-          <Card.Img src="/images/Okemos.png" style={{ height: "10vh" }} />
+          <Card.Img src={`${process.env.PUBLIC_URL}/images/Okemos.png`} style={{ height: "10vh" }} />
           <Card.Title>3rd-4th Grade Basketball Coach</Card.Title>
           <Card.Title>T-ball Coach</Card.Title>
         </Card>
       </Row>
       <Row className="project-card">
       <Card className="project-card-view">
-      <Card.Img src="/images/Meridian.png" style={{ height: "10vh" }} />
+      <Card.Img src={`${process.env.PUBLIC_URL}/images/Meridian.png`} style={{ height: "10vh" }} />
       <Card.Body>
           <Card.Title>4-6th Grade Soccer Coach</Card.Title>
       </Card.Body>

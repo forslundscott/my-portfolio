@@ -9,7 +9,7 @@ function School() {
       <Row className="project-card">
       <Card className="project-card-view">
         
-      <Card.Img src="/images/SAU.gif" style={{ height: "10vh" }} />
+      <Card.Img src={`${process.env.PUBLIC_URL}/images/SAU.gif`} style={{ height: "10vh" }} />
       <p>
         Bachelor of Arts - Accounting
       </p>
@@ -17,8 +17,8 @@ function School() {
       </Card>
       <br/>
       <Card>
-        <Card.Img src="/images/CPA.png" style={{ height: "15vh", margin: "10px" }} />
-        <Card.Img src="/images/CSSGB.png" style={{ height: "15vh", margin: "10px" }} />
+        <Card.Img src={`${process.env.PUBLIC_URL}/images/CPA.png`} style={{ height: "15vh", margin: "10px" }} />
+        <Card.Img src={`${process.env.PUBLIC_URL}/images/CSSGB.png`} style={{ height: "15vh", margin: "10px" }} />
       </Card>
       
       </Row>

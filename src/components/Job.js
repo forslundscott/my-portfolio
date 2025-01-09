@@ -12,13 +12,13 @@ function Job(props) {
       <Card className="project-card-view">
         {job.images.map((image, index) => (
           <Card.Img key={index}
-          src={`${image}`} 
+          src={`${process.env.PUBLIC_URL}${image}`} 
           alt={props.name} 
           style={{ height: "10vh" }}
         />
         ))}
         {/* <Card.Img 
-          src={`/images/${props.name}.png`} 
+          src={`${process.env.PUBLIC_URL}/images/${props.name}.png`} 
           alt={props.name} 
           style={{ height: "10vh" }}
         /> */}
