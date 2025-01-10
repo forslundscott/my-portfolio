@@ -1,5 +1,5 @@
+// will likely remove, brackets did not look as nice as I imagined
 const SwirlyWrapper = ({ children }) => {
-    // Clone the child to access its styles
     // const childStyle = children.props.style || {};
   
     return (
@@ -7,7 +7,7 @@ const SwirlyWrapper = ({ children }) => {
         <span
           style={{
             // fontSize: childStyle.fontSize || "inherit",
-            color: "#ceff00", // Swirly brackets' color
+            color: "#ceff00", 
             fontFamily: 'Kosugi'
           }}
         >
@@ -17,7 +17,7 @@ const SwirlyWrapper = ({ children }) => {
         <span
           style={{
             // fontSize: childStyle.fontSize || "inherit",
-            color: "#ceff00", // Swirly brackets' color
+            color: "#ceff00", 
             fontFamily: 'Kosugi'
           }}
         >

@@ -14,16 +14,13 @@ import School from "./School";
 function App() {
   useEffect(() => {
     const setVh = () => {
-      // Calculate the correct height dynamically
       const vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     };
 
-    // Set height on load and resize
     setVh();
     window.addEventListener('resize', setVh);
 
-    // Cleanup event listener on unmount
     return () => {
       window.removeEventListener('resize', setVh);
     };

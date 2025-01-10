@@ -17,10 +17,10 @@ import SchoolIcon from '@mui/icons-material/School';
 const theme = createTheme({
     palette: {
       primary: {
-        main: '#ceff00', // Custom primary color
+        main: '#ceff00', 
       },
       secondary: {
-        main: '#576261', // Custom secondary color
+        main: '#576261', 
       },
     },
   });
@@ -83,7 +83,6 @@ const FloatingNav = ({ onClick }) => {
               size="small"
               style={{ marginBottom: "10px" }}
               color="primary"
-            //   className="voltButton"
             >
               <SkillsIcon />
             </Fab>
@@ -96,7 +95,6 @@ const FloatingNav = ({ onClick }) => {
               size="small"
               style={{ marginBottom: "10px" }}
               color="primary"
-            //   className="voltButton"
             >
               <EmojiEventsIcon />
             </Fab>
@@ -109,7 +107,6 @@ const FloatingNav = ({ onClick }) => {
               size="small"
               style={{ marginBottom: "10px" }}
               color="primary"
-            //   className="voltButton"
             >
               <SchoolIcon />
             </Fab>
@@ -122,7 +119,6 @@ const FloatingNav = ({ onClick }) => {
               size="small"
               style={{ marginBottom: "10px" }}
               color="primary"
-            //   className="voltButton"
             >
               <CommunityIcon />
             </Fab>
